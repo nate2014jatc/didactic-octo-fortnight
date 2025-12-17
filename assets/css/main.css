@@ -1,5 +1,5 @@
 body    {
-    background-image: url(/assets/images//background_main.jpg);
+    background-image: url(assets/images//background_main.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -11,7 +11,7 @@ body    {
 
 header  {
     /*background-color: var(--debug-background);*/
-    background-image: url(/assets/images/background_header.jpg);
+    background-image: url(assets/images/background_header.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
