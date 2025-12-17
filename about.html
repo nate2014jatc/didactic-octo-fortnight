@@ -1,0 +1,16 @@
+---
+layout: null
+---
+{% assign authorData = site.data.about.items %}
+<head>
+    {% include head.html %}
+</head>
+{% include header.html %}
+
+<img id="headshot" src="{{ authorData.photo }}">
+
+<div id="aboutText">
+    {{ authorData.about }}
+</div>
+
+{% include footer.html %}

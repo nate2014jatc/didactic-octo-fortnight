@@ -1,0 +1,23 @@
+---
+layout: null
+---
+{% assign pieceData = site.data.pieces %}
+<head>
+    {% include head.html %}
+</head>
+{% include header.html %}
+
+{% for item in site.data.pieces %}
+<div id="audioContainer">
+    <audio preload="auto" controls style="width: 75%;">
+        {{ item.src }}
+    </audio>
+    <h2 class="lightShadowed">{{ item.title }}</h2>
+    <p>Contribution:</p>
+    <hr>
+    <p id="audioContainerContrib">{{ item.contrib }}</p>
+</div>
+{% endfor %}
+
+
+{% include footer.html %}

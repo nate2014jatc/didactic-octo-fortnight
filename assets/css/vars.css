@@ -1,0 +1,25 @@
+:root   {
+    /* debug options */
+    --debug-border: #aa00aa;
+    --debug-border-style: groove;
+    --debug-background: #00ffaa;
+    /* standard options */
+    --border-radius: 0.5rem;
+    --border-width: 2px;
+    --border-style: groove;
+    --headshot-radius: 75%;
+    /* colors */
+    --background-color: #e0dedf;
+    --copyright-color: #434343;
+    --text-color: #111;
+    --smoke: rgba(111,111,111,0.75);
+    --border: #434343;
+    --shadow-color: #000;
+    --header-text-color: #e0dedf;
+
+}
+
+@font-face  {
+    font-family: Roland;
+    src: url(/assets/fonts/RolandRegular.ttf);
+}
