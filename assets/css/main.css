@@ -27,10 +27,12 @@ header  {
 }
 
 header  div {
+    /*
     border-color: var(--border);
     border-radius: var(--border-radius);
     border-width: var(--border-width);
     border-style: var(--border-style);
+    */
 
     width: fit-content;
     float: right;
